@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contaner{
+    margin:0 8%;
+    overflow: hidden;
+}
+img{
+    width:100%;
+}
+h1{
+    font-size:50px;
+    margin-top: 30px;
+}
+h2{
+    margin-top: 20px;
+    font-size:40px;
+}
+h3{
+    color:orange;
+}
+p{
+    color:dimgrey;
+    margin-top:20px;
+}
+.button{
+    padding:10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+}
+.button:hover{
+    background-image: linear-gradient(45deg, tomato,lightsalmon);
+    
+}
+#welcome-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.contaner .first-div{
+    float: left;
+    width:48%;
+    margin-right:4%;
+    padding:50px 0;
+    
+}
+.contaner .first-div span{
+    color:#FFA500;
+}
+.contaner .second-div{
+    float: left;
+    width:48%;
+    padding:50px 0;
+}
+#dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.exter-margin{
+        margin-top:40px;
+        padding:50px 0;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.exp{
+    padding-bottom: 100px;
+}
+.extra-design{
+    height: 200px;
+    box-shadow: grey 5px 7px 25px;
+    margin: 0px 2%;
+    float: left;
+    width: 42%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top:20px;
+    padding:20px;
+    border-left:6px solid;
+    border-image: linear-gradient(lightsalmon, tomato) 1 / 1 / 0 stretch;
+
+}
+#extra-design-by-border{
+    border-left:6px solid;
+    border-image: linear-gradient(blue, cyan) 1 / 1 / 0 stretch;
+
+}
+.m-right{
+    margin-right:4%;
+}
+.extra-design h2{
+  margin-top: 0;
+}
+footer p{
+    text-align:center;
+    padding:20px;
+}
